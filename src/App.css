@@ -1,42 +1,37 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@font-face {
+  font-family: ddi;
+  src: url(./assets/DOKOITSU.TTF);
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.black-box {
+  
+  
+  border-radius: 7px;
+  box-sizing: border-box;
+  /* why did i do this dsadkjsajkdsajdjkadjksa */
+  padding-left: 25rem;
+  padding-right: 25rem;
+  
+  
+  border: 2px solid #2a2927;
+  background-color: #ee8d58;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.wts-text {
+  /* font-size: 20px; */
+  /* text-wrap:balance;1 */
+  color: #dfdcd6;
+  font-family: ddi;
+  text-shadow: #514e46 1.5px 1.5px;
 }
